@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Bio, Krzysztof, Szczesniak, strony, portfolio">
+    <title>Krzysztof Szcześniak</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+        <h1 id="title">Krzysztof<span class="yellow">.</span>Szcześniak</h1>
+        <h1 id="hidden">Krzysztof<span class="yellow">.</span>
+            <p>Szcześniak</p>
+        </h1>
+    </header>
+
+    <article id="about">
+        <h2>Witam<span class="yellow">.</span> Mam na imię <span class="yellow">Krzysztof</span></h2>
+        <h3>Mam 20 lat. Ukończyłem technikum informatyczne w Kaliszu.
+            <p>Mieszkam w małej wsi kilka kilometrów od Kalisza. Znam podstawy programowania w PHP oraz JavaScript. Potrafię również tworzyć nieskomplikowane layouty stron internetowych w HTML i CSS.</p>
+        </h3>
+    </article>
+
+    <aside id="contact_form">
+        <form name="contact" method="_post" action="contact.php">
+            <label>Imię</label>
+            <input type="text" name="name" class="text" required>
+            <label>E-mail</label>
+            <input type="email" name="email" class="text" required>
+            <label>Treść wiadomości</label>
+            <textarea name="tresc" id="textarea" cols="60" rows="5" placeholder="Wpisz tutaj treść swojej wiadomości" required></textarea>
+            <p></p>
+            <input type="submit" value="Wyślij" id="submit">
+        </form>
+        <h2 id="write_to_me">Napisz do <span class="yellow">mnie</span></h2>
+    </aside>
+
+    <footer id="footer">
+        <p>&copy; 2020 Krzysztof Szcześniak /// Still in Progress</p>
+    </footer>
+
+</body>
+
+</html>
